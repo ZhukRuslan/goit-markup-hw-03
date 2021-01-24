@@ -350,6 +350,17 @@ color: rgba(255, 255, 255, 0.6);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin: -15px;
+}
+.projects-item {
+    width: 370px;
+    height: 404px;
+    margin: 15px;
+} 
+.title-text {
+    width: 322px;
+    height: 70px;
+    margin: auto 24px 20px 24px; 
 }
 
 .projects-title {
@@ -358,6 +369,8 @@ color: rgba(255, 255, 255, 0.6);
     font-size: 18px;
     line-height: 2.000;
     letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 .projects-text {
     font-family: var(--text-font);
@@ -367,5 +380,6 @@ color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     color: #757575;  
 }
+
 
 /*-----AND PROJECTS-----*/
