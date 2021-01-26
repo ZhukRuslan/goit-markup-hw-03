@@ -46,8 +46,12 @@ img {
 
 /*-----HEADER-----*/
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.line {
+    margin: 0 auto;
+    border: 1px solid #ECECEC;
 }
 .header .container {
     display: flex;
@@ -201,13 +205,14 @@ img {
 /*----- AND FEATURES-----*/
 
 /*-----ACTIVITY-----*/
+.activity {
+    padding-bottom: 0;
+    
+}
 .activity-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
-}
-.activity-list-item {
-    margin: 15px;
+    justify-content: space-between;
 }
 .activity-title {
     min-width: 376px;
@@ -271,8 +276,8 @@ img {
 
 /*-----FOOTER-----*/
 .footer {
-    height: 252px;
     padding-top: 60px;
+    padding-bottom: 60px;
     background: #2F303A;
 }
 .logo-word-write {
@@ -288,26 +293,28 @@ img {
     font-style: normal;
     margin-top: 20px;
 }
-
 /*-----AND FOOTER-----*/
 
 
 /*-----CONTACT-----*/
+.contact-information-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 .contact-information-map-link {
-font-family: var(--text-font);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .contact-information-link {
-font-family: var(--text-font);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /*-----AND CONTACT-----*/
@@ -356,11 +363,10 @@ color: rgba(255, 255, 255, 0.6);
     width: 370px;
     height: 404px;
     margin: 15px;
+    border: 1px solid #EEEEEE;
 } 
 .title-text {
-    width: 322px;
-    height: 70px;
-    margin: auto 24px 20px 24px; 
+    padding: 20px 24px 20px 24px;
 }
 
 .projects-title {
@@ -369,7 +375,6 @@ color: rgba(255, 255, 255, 0.6);
     font-size: 18px;
     line-height: 2.000;
     letter-spacing: 0.06em;
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 .projects-text {
@@ -378,6 +383,7 @@ color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
+    
     color: #757575;  
 }
 
