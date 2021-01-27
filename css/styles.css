@@ -48,11 +48,9 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-}
-.line {
-    margin: 0 auto;
     border: 1px solid #ECECEC;
 }
+
 .header .container {
     display: flex;
     align-items: center;
@@ -205,8 +203,8 @@ img {
 /*----- AND FEATURES-----*/
 
 /*-----ACTIVITY-----*/
-.activity {
-    padding-bottom: 0;
+.activity, .team {
+    padding-bottom: 94px;
     
 }
 .activity-list {
