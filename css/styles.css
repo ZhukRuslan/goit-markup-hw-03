@@ -203,7 +203,7 @@ img {
 /*----- AND FEATURES-----*/
 
 /*-----ACTIVITY-----*/
-.activity, .team {
+.activity  {
     padding-bottom: 94px;
     
 }
@@ -228,6 +228,9 @@ img {
 /*-----AND ACTIVITY-----*/
 
 /*-----TEAM-----*/
+.team {
+    padding-bottom: 94px;
+}
 .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -235,6 +238,7 @@ img {
 }
 .team-list-item {
     margin: 15px;
+    
 }
 .team-title {
     min-width: 264px;
