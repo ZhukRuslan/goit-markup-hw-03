@@ -230,6 +230,7 @@ p {
 .card-title {
   margin-top: 32px;
   margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -238,6 +239,7 @@ p {
 }
 .about-text {
   margin-bottom: 32px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -245,9 +247,24 @@ p {
 }
 
 /* Portfolio */
+.section.port-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.buttons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 72px;
+}
+.buttons-list .buttons-item:not(:last-child) {
+  margin-right: 24px;
+}
 .button {
-  cursor: pointer;
-  background-color: var(--button-bg-color);
+  display: inline-block;
+  padding: 12px 24px;
+
+  background-color: var(--main-background-color);
   color: var(--secondary-text-color);
   border: none;
 
@@ -258,13 +275,15 @@ p {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
   background-color: var(--secondary-text-color);
   color: var(--main-background-color);
 }
-.section-title.works-title {
+.works-title {
   color: var(--main-title-color);
   font-weight: 500;
   font-size: 20px;
