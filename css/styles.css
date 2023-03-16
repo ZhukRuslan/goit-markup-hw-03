@@ -283,7 +283,27 @@ p {
   background-color: var(--secondary-text-color);
   color: var(--main-background-color);
 }
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+.projects-item {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+.projects-item:nth-child(3n) {
+  margin-right: 0;
+}
+.projects-item:nth-child(n + 6) {
+  margin-bottom: 0;
+}
+.img-projects {
+  margin: 0;
+}
 .works-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
   color: var(--main-title-color);
   font-weight: 500;
   font-size: 20px;
@@ -292,6 +312,7 @@ p {
   text-align: left;
 }
 .pro-text {
+  margin-bottom: 32px;
   color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.5;
