@@ -49,8 +49,6 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  outline: 2px solid rebeccapurple;
 }
 
 /* Header */
@@ -304,7 +302,9 @@ p {
 .works-title {
   margin-top: 32px;
   margin-bottom: 8px;
+
   color: var(--main-title-color);
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -313,7 +313,9 @@ p {
 }
 .pro-text {
   margin-bottom: 32px;
+
   color: var(--main-text-color);
+
   font-size: 16px;
   line-height: 1.5;
 }
@@ -334,7 +336,9 @@ p {
 }
 .foot-text {
   padding-top: 16px;
+
   color: var(--main-background-color);
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
