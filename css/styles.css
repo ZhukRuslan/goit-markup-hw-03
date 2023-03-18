@@ -212,13 +212,16 @@ p {
 }
 .img-work {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Section team */
 .section-team {
-  background-color: var(--button-bg-color);
   padding-top: 120px;
   padding-bottom: 120px;
+
+  background-color: var(--button-bg-color);
 }
 .team-list {
   display: flex;
@@ -231,7 +234,8 @@ p {
 }
 .img-team {
   display: block;
-  margin: 0;
+  max-width: 100%;
+  height: auto;
 }
 .team-blok {
   padding-top: 32px;
@@ -298,12 +302,10 @@ p {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0; */
 }
 .projects-item {
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid var(--color-line);
 }
 .projects-item:nth-child(3n) {
   margin-right: 0;
@@ -312,10 +314,13 @@ p {
   margin-bottom: 0;
 }
 .img-projects {
-  margin: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .project-work {
   padding: 32px 0px 32px 16px;
+  border: 1px solid var(--color-line);
 }
 .works-title {
   /* margin-top: 32px; */
